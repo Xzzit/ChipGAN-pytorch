@@ -1,6 +1,7 @@
 # ChipGAN-PyTorch1.8-
 **Original Code & Paper**
 This is the latest code for paper "ChipGAN: A Generative Adversarial Network for Chinese Ink Wash Painting Style Transfer". Original Work by Bin He, Feng Gao etc.
+
 You can check the original code and paper at: [CODE](https://github.com/PKU-IMRE/ChipGAN) | [PAPER](https://dl.acm.org/doi/10.1145/3240508.3240655)
 
 ## Description
