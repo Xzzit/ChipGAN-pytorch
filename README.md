@@ -7,8 +7,8 @@ You can check the original code and paper at: [CODE](https://github.com/PKU-IMRE
 ## Description
 In the paper above, He provides a new way to generate Chinese ink wash painting by using Generative Adversarial Network(GAN). You only have to input a real-world image, then the pre-trained GAN will generate an ink wash painting for you.
 
-## Requirement Library 
-PyTorch 1.8 | OS: Windows 10 | Python 3.7
+## Requirement
+Library: PyTorch 1.8 | OS: Windows 10 | Python 3.7
 
 ## Training Datasets
 In this code, two datasets are needed to train your GAN. One is called the landscape dataset(DatasetA), another is called the ink wash paintings dataset(DatasetB).
