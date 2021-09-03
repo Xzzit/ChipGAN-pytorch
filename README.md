@@ -25,3 +25,8 @@ You can open paint.py file to generate your ink wash painting images.
 In this file, you should change the data location to your directory. (checkpoint, input images, save place. etc.)
 
 You could open the file and get more details. I have written code comments for you. Have fun!
+
+## Download Pre-trained Models
+I upload models on Google Driver, you could download them at [ChipGAN Models](https://drive.google.com/drive/folders/1lzS3LVWfSYo8viaLLJpoKeQHSrMqMwt5?usp=sharing)
+
+There are 5 models: criticA/B --> Whether a image is a Landscape/Inkwash paintings; criticINK --> Whether a image is a Blurred Inkwash painting; genA/B --> Generate Landscape/Inkwash paintings
