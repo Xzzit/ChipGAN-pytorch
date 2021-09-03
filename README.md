@@ -17,7 +17,7 @@ For the DatasetA, I choose them from [Kaggle|Landscape Pictures](https://www.kag
 
 For the DatasetB, I choose them from [Traditional Chinese Landscape Painting Dataset](https://github.com/alicex2020/Chinese-Landscape-Painting-Dataset)
 
-You could train your GAN by your own or use the pre-trained GAN in the folder "saved_models".
+You could train your GAN by your own or use the pre-trained GAN in the folder ["saved_models"](https://drive.google.com/drive/folders/1lzS3LVWfSYo8viaLLJpoKeQHSrMqMwt5?usp=sharing).
 
 ## How To Use
 You can open paint.py file to generate your ink wash painting images.
