@@ -29,4 +29,4 @@ You could open the file and get more details. I have written code comments for y
 ## Download Pre-trained Models
 I upload models on Google Driver, you could download them at [ChipGAN Models](https://drive.google.com/drive/folders/1lzS3LVWfSYo8viaLLJpoKeQHSrMqMwt5?usp=sharing)
 
-There are 5 models: criticA/B --> Whether a image is a Landscape/Inkwash paintings; criticINK --> Whether a image is a Blurred Inkwash painting; genA/B --> Generate Landscape/Inkwash paintings
+There are 6 models: criticA/B --> Whether a image is a Landscape/Inkwash paintings; criticINK --> Whether a image is a Blurred Inkwash painting; genA/B --> Generate Landscape/Inkwash paintings; hed-bsds500 --> Edge detection & blur.
