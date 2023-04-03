@@ -1,0 +1,5 @@
+**/__pycache__
+*.png
+saved_images/*
+saved_models/*
+data/*

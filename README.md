@@ -5,10 +5,10 @@ This is the latest code for paper "ChipGAN: A Generative Adversarial Network for
 You can check the original code and paper at: [CODE](https://github.com/PKU-IMRE/ChipGAN) | [PAPER](https://dl.acm.org/doi/10.1145/3240508.3240655)
 
 ## Description
-In the paper above, He provides a new way to generate Chinese ink wash painting by using Generative Adversarial Network(GAN). You only have to input a real-world image, then the pre-trained GAN will generate an ink wash painting for you.
+In the paper above, He provides a new way to generate Chinese ink wash painting by using Generative Adversarial Network(GAN). The input is real-world images, and the pre-trained ChipGAN will generate ink wash paintings as outputs.
 
 ## Requirement
-Library: PyTorch 1.8 | OS: Windows 10 | Python 3.7
+Library: PyTorch 1.13 | OS: Windows 10 | Python 3.7
 
 ## Training Datasets
 In this code, two datasets are needed to train your GAN. One is called the landscape dataset(DatasetA), another is called the ink wash paintings dataset(DatasetB).
@@ -20,6 +20,13 @@ For the DatasetB, I choose them from [Traditional Chinese Landscape Painting Dat
 You could train your GAN by your own or use the pre-trained GAN in the folder ["saved_models"](https://drive.google.com/drive/folders/1lzS3LVWfSYo8viaLLJpoKeQHSrMqMwt5?usp=sharing).
 
 ## How To Use
+
+```
+conda create -n chipgan python=3.7
+conda activate chipgan
+pip install -r requirements.txt
+```
+
 You can open paint.py file to generate your ink wash painting images.
 
 In this file, you should change the data location to your directory. (checkpoint, input images, save place. etc.)
