@@ -8,7 +8,6 @@ Check the original code and paper at: [CODE](https://github.com/PKU-IMRE/ChipGAN
 In the paper above, He provides a new way to generate Chinese ink wash painting by using Generative Adversarial Network(GAN). The core modules of ChipGAN enforce three constraints – voids, brush strokes, and ink wash tone and diffusion – to address three key techniques commonly adopted in Chinese ink wash painting.
 
 ## Example outputs
-
 <p float="left">
     <img src="./saved_images/mountain.jpg" width="256" height="256"></a>
     <img src="./saved_images/inkwash_mountain.png" width="256" height="256"></a>
@@ -33,6 +32,7 @@ conda create -n chipgan python=3.7
 conda activate chipgan
 pip install -r requirements.txt
 ```
+
 ## Painting with Pre-trained Models
 Download pre-trained models from [ChipGAN Models](https://drive.google.com/drive/folders/1lzS3LVWfSYo8viaLLJpoKeQHSrMqMwt5?usp=sharing)
 
@@ -80,3 +80,8 @@ The downloaded file should be placed as following:
 ```
 
 Run `train.py` to train ChipGAN models.
+
+## Issues
+As shown in the example, the generated images has notable noisey and repeated pattern.
+
+If you know what cause this issues, please contact me `@xiang.zhizheng@image.iit.tsukuba.ac.jp` or post the solution in issues.
