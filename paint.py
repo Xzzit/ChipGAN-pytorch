@@ -2,10 +2,8 @@ import torch
 import torchvision.transforms as transforms
 from torchvision.utils import save_image
 from PIL import Image
-import os
-import random
 import config
-from generator import Generator
+from utils.generator import Generator
 
 # Create Generator B which paints ink wash painting.
 gen_B = Generator(img_channels=3).to(config.DEVICE)

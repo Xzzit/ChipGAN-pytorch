@@ -1,15 +1,15 @@
 import torch
-from dataset import ABDataset, my_transform
-from utils import save_checkpoint, load_checkpoint
+from utils.dataset import ABDataset, my_transform
+from utils.utils import save_checkpoint, load_checkpoint
 from torch.utils.data import DataLoader
 import torch.nn as nn
 import torch.optim as optim
 import config
 from tqdm import tqdm
 from torchvision.utils import save_image
-from discriminator import Discriminator
-from generator import Generator
-from brush_ink import HED, no_sigmoid_cross_entropy, gauss_kernel, erode
+from utils.discriminator import Discriminator
+from utils.generator import Generator
+from utils.brush_ink import HED, no_sigmoid_cross_entropy, gauss_kernel, erode
 
 
 '''

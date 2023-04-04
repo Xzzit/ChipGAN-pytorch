@@ -1,5 +1,3 @@
-**/__pycache__
-*.png
-saved_images/*
+__pycache__/*
 saved_models/*
-data/*
+saved_images/*
