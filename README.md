@@ -7,6 +7,18 @@ Check the original code and paper at: [CODE](https://github.com/PKU-IMRE/ChipGAN
 ## Description
 In the paper above, He provides a new way to generate Chinese ink wash painting by using Generative Adversarial Network(GAN). The core modules of ChipGAN enforce three constraints – voids, brush strokes, and ink wash tone and diffusion – to address three key techniques commonly adopted in Chinese ink wash painting.
 
+## Example outputs
+
+<p float="left">
+    <img src="./saved_images/mountain.jpg" width="256" height="256"></a>
+    <img src="./saved_images/inkwash_mountain.png" width="256" height="256"></a>
+</p>
+
+<p float="left">
+    <img src="./saved_images/lake.jpg" width="256" height="256"></a>
+    <img src="./saved_images/inkwash_lake.png" width="256" height="256"></a>
+</p>
+
 ## Dependencies
 Tested with:
 * OS: Windows 10/11 or Ubuntu 22.04 (Recommended)
