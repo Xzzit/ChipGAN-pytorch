@@ -2,8 +2,8 @@ import torch
 
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-TRAIN_DIR = "/home/xzzit/code/dataset/inkpainting"
-HED_MODEL_DIR = '/home/xzzit/code/dataset/inkpainting/hed-bsds500'
+TRAIN_DIR = "data"
+HED_MODEL_DIR = 'saved_models/hed-bsds500'
 CHECKPOINT_GEN_A = "saved_models/genA.pth.tar"
 CHECKPOINT_GEN_B = "saved_models/genB.pth.tar"
 CHECKPOINT_CRITIC_A = "saved_models/criticA.pth.tar"
